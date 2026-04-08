@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Lead Management Suite" verbose="1" >
+
+    <test name="Lead Creation Flow">
+        <classes>
+            <class name="com.testng.week5.day1.CreateLead"/>
+        </classes>
+    </test>
+
+    <test name="Lead Deletion Flow" >
+        <classes>
+            <class name="com.testng.week5.day1.DeleteLead"/>
+        </classes>
+    </test>
+</suite>
