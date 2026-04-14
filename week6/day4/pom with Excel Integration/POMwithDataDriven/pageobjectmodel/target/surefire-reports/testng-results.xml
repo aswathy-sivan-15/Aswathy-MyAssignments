@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-15T00:48:10 IST" name="functional suite" finished-at="2026-04-15T00:48:49 IST" duration-ms="39236">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-04-15T00:48:10 IST" name="BDD Execution" finished-at="2026-04-15T00:48:42 IST" duration-ms="32037">
+      <class name="com.leaftaps.runner.BDDrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:10 IST" name="setUpClass" finished-at="2026-04-15T00:48:11 IST" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aaceffd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:11 IST" name="preCondition" finished-at="2026-04-15T00:48:24 IST" duration-ms="13742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--private]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:11 IST" name="preCondition" finished-at="2026-04-15T00:48:25 IST" duration-ms="14623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--private]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:11 IST" name="preCondition" finished-at="2026-04-15T00:48:26 IST" duration-ms="14840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--private]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-15T00:48:28 IST" duration-ms="3172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the Leaftaps Application by providing the valid user credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Authentication in Leaftaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-15T00:48:37 IST" duration-ms="12109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating Lead Creation by filling the mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lead Creation in Leaftaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-15T00:48:39 IST" duration-ms="13128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating Lead Creation by filling the mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lead Creation in Leaftaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:28 IST" name="postCondition" finished-at="2026-04-15T00:48:29 IST" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:37 IST" name="postCondition" finished-at="2026-04-15T00:48:38 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:39 IST" name="postCondition" finished-at="2026-04-15T00:48:40 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.runner.BDDrunner@2f4948e4]" started-at="2026-04-15T00:48:40 IST" name="tearDownClass" finished-at="2026-04-15T00:48:42 IST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.leaftaps.runner.BDDrunner -->
+    </test> <!-- BDD Execution -->
+    <test started-at="2026-04-15T00:48:10 IST" name="functional testcases" finished-at="2026-04-15T00:48:49 IST" duration-ms="39236">
+      <class name="com.leaftaps.testcases.TC001_LoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" started-at="2026-04-15T00:48:10 IST" name="setUpClass" finished-at="2026-04-15T00:48:10 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e4487af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" started-at="2026-04-15T00:48:10 IST" name="preCondition" finished-at="2026-04-15T00:48:16 IST" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--guest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLoginTest()[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" started-at="2026-04-15T00:48:16 IST" name="runLoginTest" finished-at="2026-04-15T00:48:20 IST" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoginTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" started-at="2026-04-15T00:48:20 IST" name="postCondition" finished-at="2026-04-15T00:48:20 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.TC001_LoginTest@4f83df68]" started-at="2026-04-15T00:48:20 IST" name="tearDownClass" finished-at="2026-04-15T00:48:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.leaftaps.testcases.TC001_LoginTest -->
+      <class name="com.leaftaps.testcases.TC002_CreateLead">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:10 IST" name="setUpClass" finished-at="2026-04-15T00:48:10 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e4487af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="enterFilePath()[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:10 IST" name="enterFilePath" finished-at="2026-04-15T00:48:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFilePath -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:11 IST" name="preCondition" finished-at="2026-04-15T00:48:17 IST" duration-ms="6191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--guest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:17 IST" name="runCreateLead" data-provider="fetchData" finished-at="2026-04-15T00:48:31 IST" duration-ms="13422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bhuvanesh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:31 IST" name="postCondition" finished-at="2026-04-15T00:48:31 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:31 IST" name="preCondition" finished-at="2026-04-15T00:48:33 IST" duration-ms="2285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--guest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:33 IST" name="runCreateLead" data-provider="fetchData" finished-at="2026-04-15T00:48:41 IST" duration-ms="7700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:41 IST" name="postCondition" finished-at="2026-04-15T00:48:41 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:41 IST" name="preCondition" finished-at="2026-04-15T00:48:43 IST" duration-ms="1787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[--guest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:43 IST" name="runCreateLead" data-provider="fetchData" finished-at="2026-04-15T00:48:49 IST" duration-ms="6262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:49 IST" name="postCondition" finished-at="2026-04-15T00:48:49 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.TC002_CreateLead@55182842]" started-at="2026-04-15T00:48:49 IST" name="tearDownClass" finished-at="2026-04-15T00:48:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.leaftaps.testcases.TC002_CreateLead -->
+    </test> <!-- functional testcases -->
+  </suite> <!-- functional suite -->
+</testng-results>
